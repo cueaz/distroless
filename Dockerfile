@@ -163,7 +163,7 @@ Cflags: -I\${includedir}\n\
     # Install xz
     git clone --depth 1 https://github.com/tukaani-project/xz; \
     pushd xz; \
-    ./autogen.sh --no-po4a; \
+    ./autogen.sh --no-po4a --no-doxygen; \
     ./configure --disable-shared \
                 --libdir=/usr/local/lib64 \
                 --disable-xz \
