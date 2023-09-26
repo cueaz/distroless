@@ -1,11 +1,6 @@
 name: Build and push Docker images
 
-on:
-  push:
-    branches:
-      - main
-  schedule:
-    - cron: '0 */6 * * *'
+on: workflow_dispatch
 
 env:
   REGISTRY: ghcr.io
