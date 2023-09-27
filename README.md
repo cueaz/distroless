@@ -1,4 +1,4 @@
-# [Clear](//clearlinux.org/) [Distroless](//github.com/GoogleContainerTools/distroless)
+# [Clear](//clearlinux.org/) [Distroless](//github.com/GoogleContainerTools/distroless) (Deprecated)
 
 Custom distroless images based on [Clear Linux OS](//clearlinux.org/) for my personal use
 
